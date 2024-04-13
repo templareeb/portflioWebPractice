@@ -74,5 +74,6 @@ header{
 
 .project-item:hover {
     background-color: #249393;
+    transform: scale(1.05);
     transition: transform 0.3s ease; 
   }
