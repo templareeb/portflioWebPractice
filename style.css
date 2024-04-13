@@ -36,6 +36,7 @@ nav{
     text-decoration: none;
 }
 
+
 .head-nav li{
     margin-left: 20px;
 }
@@ -76,4 +77,16 @@ header{
     background-color: #249393;
     transform: scale(1.05);
     transition: transform 0.3s ease; 
+  }
+
+  footer{
+    background-color: #21AAAA;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100vw;
+    padding: 0px 93px;
+    flex-shrink: 0;
   }
