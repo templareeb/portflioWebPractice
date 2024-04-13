@@ -7,13 +7,20 @@
 body{
     background-color: #249393;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
 }
 
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 50px;
+    width: 100vw;
+    padding: 0px 93px;
 }
 
 .head-nav{
@@ -34,5 +41,28 @@ nav{
 
 header{
     background-color: #21AAAA;
-    height: 117px;
+    
+}
+
+.hero{
+    background-color: #21AAAA;
+    width: 90vw;
+    padding: 50px;
+    text-align: justify;
+}
+
+.projects{
+    /* background-color: #21AAAA; */
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+#project{
+    background-color: #21AAAA;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
 }
