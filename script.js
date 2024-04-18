@@ -1,6 +1,7 @@
 function toggleDarkMode() {
     // Select specific elements to be toggled
     const elementsToToggle = document.querySelectorAll('.item, p, h1, h2, h3, .container, body');
+    var modeButton = document.getElementById('modetoggle');
 
     // Loop through each element
     elementsToToggle.forEach(element => {
@@ -17,10 +18,12 @@ function toggleDarkMode() {
             // Switch to light mode (white text on black background)
             element.style.color = 'white';
             element.style.backgroundColor = 'black';
+            // modeButton.textContent = 'Dark Mode'
         } else {
             // Switch to dark mode (black text on white background)
             element.style.color = 'black';
             element.style.backgroundColor = 'white';
+            // modeButton.textContent = 'Light Mode'
         }
     });
 }

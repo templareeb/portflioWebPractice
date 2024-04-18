@@ -50,7 +50,8 @@ body {
 .item:nth-child(4) {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
-    justify-self: end;
+    justify-self: center;
+    align-self: center;
     width: 250px;
     height: 120px;
 }
@@ -58,12 +59,15 @@ body {
 .item:nth-child(5) {
     grid-column: 2 / 3;
     grid-row: 4 / 5;
-    justify-self: end;
+    justify-self: center;
+    align-self: center;
 }
 
 .item:nth-child(6) {
     grid-column: 3 / 4;
     grid-row: 4 / 5;
+    justify-self: start;
+    align-self: center;
 }
 
 .card {
