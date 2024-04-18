@@ -1,6 +1,6 @@
 function toggleDarkMode() {
     // Select specific elements to be toggled
-    const elementsToToggle = document.querySelectorAll('.item, p, h1, h2, h3, .container, body');
+    const elementsToToggle = document.querySelectorAll('.item, p, h1, h2, h3, .container, body, button');
     var modeButton = document.getElementById('modetoggle');
 
     // Loop through each element
